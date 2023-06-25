@@ -10,6 +10,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        window.decorView.background = ColorDrawable(Color.WHITE)
         val switchView = findViewById<SwitchView>(R.id.switch_view)
         switchView.changeCallback = {
             ValueAnimator.ofArgb(

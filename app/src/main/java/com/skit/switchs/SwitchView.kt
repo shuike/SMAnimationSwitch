@@ -44,7 +44,7 @@ class SwitchView @JvmOverloads constructor(
         color = Color.parseColor("#FF8897AC")
     }
 
-    // 月亮的画笔
+    // 星星的画笔
     private val startsPaint = Paint(Paint.ANTI_ALIAS_FLAG).apply {
         color = Color.WHITE
     }
